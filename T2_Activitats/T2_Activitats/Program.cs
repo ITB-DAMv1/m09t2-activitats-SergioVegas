@@ -25,12 +25,20 @@ namespace T2_Activitats
             //Exercici6
             //Realitza un programa que emuli una carrera de camells. Cada camell és un thread diferent. Els camells han de comptar de 0 a 100. A cada comptatge escriu per consola el número de camell i el número pel qual va, a més a més descansarà X milisegons. X serà un número aleatori  a cada cicle d’entre dos valors. Els dos valors són paràmetres diferents entre els camells.
 
-
+            Exercici6();
         }
         public static void Exercici6()
         {
-            
+            int rounds = 100;
+            int numberCamels = 3;
 
+            Thread[] threads = new Thread[numberCamels];
+            for (int i = 0; i < numberCamels; i++)
+            {
+                Camel newCamel = new Camel(i);
+                threads[i] = new Thread(newCamel.Run);
+                threads[i].Start();
+            }
         }
         public static void Exercici5()
         {

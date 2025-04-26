@@ -17,9 +17,9 @@ namespace T2_Activitats
         {
             this.Number = camelNumber;
         }
-        public void Run( int rounds)
+        public void Run()
         {
-            for (int i = 0; i < rounds; i++)
+            for (int i = 0; i < 100; i++)
             {
                 Console.WriteLine($"El camell numero {Number}, va per la volta {i}!");
                 Thread.Sleep(Rest.Next(MinRangRest,MaxRangRest));
