@@ -17,15 +17,24 @@ namespace T2_Activitats
             //Exercici 3
             //Executa un programa browser (Edge, Chrome, Firefox). Fent servir la classe ProcessThread i amb del programa anterior crea un mètode que llista els fils que té el browser i imprimeix el seu ID, hora d’inici i prioritat. Si obres més d’una pestanya, s’obren nous fils? Explica que succeix.
             //Exercici3();
+
             //Exercici5
             // Crea un programa amb 5 fils que escriuen per consola: $“Hola! Soc el fil número { numeroFil}”
-            Exercici5();
+            //Exercici5
 
+            //Exercici6
+            //Realitza un programa que emuli una carrera de camells. Cada camell és un thread diferent. Els camells han de comptar de 0 a 100. A cada comptatge escriu per consola el número de camell i el número pel qual va, a més a més descansarà X milisegons. X serà un número aleatori  a cada cicle d’entre dos valors. Els dos valors són paràmetres diferents entre els camells.
+
+
+        }
+        public static void Exercici6()
+        {
+            
 
         }
         public static void Exercici5()
         {
-            //a)
+            //a) Executa els 5 fils  i comprova l’ordre que s’imprimeix. Quin és? i per què es aquest ordre?
             Thread th1 = new Thread(() => { Console.WriteLine("Hola! Soc el fil número 1"); });
             Thread th2 = new Thread(() => { Console.WriteLine("Hola! Soc el fil número 2"); });
             Thread th3 = new Thread(() => { Console.WriteLine("Hola! Soc el fil número 3"); });
@@ -37,7 +46,7 @@ namespace T2_Activitats
             th3.Start();           
             th4.Start();
             th5.Start();
-            //b)
+            //b)Fes servir la funció .Sleep() per mirar de fer que les tasques s’executin en ordre invers.
             Thread th1S = new Thread(() => { Thread.Sleep(400); Console.WriteLine("Hola! Soc el fil número 1"); });
             Thread th2S = new Thread(() => { Thread.Sleep(300); Console.WriteLine("Hola! Soc el fil número 2"); });
             Thread th3S = new Thread(() => { Thread.Sleep(200); Console.WriteLine("Hola! Soc el fil número 3"); });
