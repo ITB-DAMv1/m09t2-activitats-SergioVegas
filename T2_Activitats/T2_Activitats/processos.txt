@@ -4,12 +4,9 @@ Registry 148
 smss 540
 csrss 756
 wininit 848
-csrss 856
 services 928
-winlogon 960
 lsass 988
 svchost 612
-fontdrvhost 1052
 fontdrvhost 1060
 svchost 1152
 svchost 1200
@@ -21,7 +18,6 @@ svchost 1452
 svchost 1460
 svchost 1488
 svchost 1604
-dwm 1628
 svchost 1688
 svchost 1904
 svchost 1940
@@ -45,7 +41,6 @@ svchost 2660
 Memory Compression 2692
 svchost 2828
 svchost 2976
-NVDisplay.Container 2984
 svchost 3064
 svchost 3280
 svchost 3408
@@ -81,7 +76,6 @@ svchost 4672
 svchost 5124
 svchost 5300
 svchost 5600
-rundll32 4492
 dllhost 6316
 RzAppManager 6756
 RzBTLEManager 6764
@@ -102,169 +96,160 @@ conhost 6648
 Razer Synapse Service 7268
 SearchIndexer 7352
 AggregatorHost 7676
-nvcontainer 8052
-nvcontainer 1336
-sihost 1420
-svchost 996
-svchost 7924
-taskhostw 8372
 svchost 8388
-explorer 8748
 svchost 8956
-svchost 8572
-StartMenuExperienceHost 9452
-RuntimeBroker 9668
-SearchApp 9820
-RuntimeBroker 10080
-ctfmon 8116
 svchost 6432
-RuntimeBroker 10384
 svchost 10420
 NisSrv 10916
 svchost 10508
-TextInputHost 6660
 svchost 11032
-nvsphelper64 11860
-NVIDIA Share 11872
-NVIDIA Share 11768
-NVIDIA Web Helper 11712
-conhost 2468
 svchost 10932
-SecurityHealthSystray 12896
 SecurityHealthService 12936
-NVIDIA Share 13080
-RtkAudUService64 13088
-vgtray 13200
-ugeeTabletDriver 13248
-Discord 1776
-EpicGamesLauncher 12768
-Discord 12804
-Discord 11308
-PhoneExperienceHost 13276
-Discord 11640
-steam 13416
-CompPkgSrv 13628
-Discord 13820
-RiotClientServices 13956
-Razer Synapse 3 14204
-Discord 14276
-Overwolf 10216
-Creative Cloud 1440
-RiotClientCrashHandler 13612
 svchost 13724
-AdobeIPCBroker 7008
-steamwebhelper 14556
-Creative Cloud UI Helper 14964
-Creative Cloud UI Helper 15028
-Creative Cloud UI Helper 15060
-Adobe Desktop Service 15100
-Creative Cloud UI Helper 15144
-Razer Central 12416
-EpicWebHelper 14028
-steamservice 5588
-CefSharp.BrowserSubprocess 15596
-CefSharp.BrowserSubprocess 15624
-Creative Cloud Helper 16104
-CoreSync 11368
-CefSharp.BrowserSubprocess 15732
-OverwolfBrowser 16480
-CefSharp.BrowserSubprocess 16496
-CefSharp.BrowserSubprocess 16508
-AdobeNotificationClient 17172
-OverwolfBrowser 16468
-OverwolfBrowser 16348
-OverwolfBrowser 9956
-steamwebhelper 11796
 svchost 17348
-OverwolfHelper 17116
-OverwolfHelper64 13104
-RuntimeBroker 18748
-steamwebhelper 19248
-steamwebhelper 18348
-steamwebhelper 15820
-steamwebhelper 19424
-ShellExperienceHost 16776
-RuntimeBroker 7680
-EpicWebHelper 14304
-Razer Synapse Service Process 3416
-steamwebhelper 15388
 svchost 16716
 svchost 13064
-svchost 19000
 sqlservr 2820
 RzChromaStreamServer 19512
 sqlceip 19656
 svchost 19716
 MoUsoCoreWorker 19772
 svchost 19824
-EpicWebHelper 20452
-EpicWebHelper 5996
-dllhost 22304
-OverwolfBrowser 22624
-UserOOBEBroker 21600
-Video.UI 19856
-RuntimeBroker 10444
-steamwebhelper 23004
-LockApp 3420
-RuntimeBroker 21736
-chrome 9040
-chrome 22672
-chrome 14956
-chrome 13560
-chrome 20924
-chrome 2388
-taskhostw 21204
-CCXProcess 8228
-node 9144
-conhost 22444
-Adobe Crash Processor 22620
-chrome 14528
-chrome 21356
-chrome 18808
-chrome 23784
-chrome 1640
 svchost 12784
 svchost 12220
-svchost 23220
-taskhostw 7368
-chrome 7460
-svchost 25024
-chrome 2348
-chrome 26196
-devenv 13532
-PerfWatson2 26664
-Microsoft.ServiceHub.Controller 24876
-ServiceHub.VSDetouredHost 22408
-ServiceHub.IdentityHost 24688
-ServiceHub.ThreadedWaitDialog 3356
-ServiceHub.RoslynCodeAnalysisService 22144
-MSBuild 104
-conhost 27004
-ServiceHub.IntellicodeModelService 23000
-ServiceHub.IndexingService 11532
-ServiceHub.Host.AnyCPU 27084
-ServiceHub.TestWindowStoreHost 24820
-ServiceHub.DataWarehouseHost 26932
-StandardCollector.Service 12204
-symsrvhost 27260
-conhost 2688
-symsrvhost 23744
-conhost 25204
-WmiPrvSE 23688
-WmiPrvSE 11520
-SearchProtocolHost 22852
-svchost 26852
-VBCSCompiler 18620
-conhost 26856
-msedgewebview2 7944
-msedgewebview2 2768
-backgroundTaskHost 22876
-RuntimeBroker 26300
-msedgewebview2 15432
-msedgewebview2 20036
-msedgewebview2 22632
-msedgewebview2 22780
-msedgewebview2 13636
-VsDebugConsole 23384
-conhost 14424
-T2_Activitats 14660
+csrss 24556
+winlogon 23808
+fontdrvhost 25560
+dwm 1328
+NVDisplay.Container 23568
+nvcontainer 27344
+sihost 27164
+nvcontainer 13256
+svchost 14012
+svchost 26136
+taskhostw 1800
+Razer Synapse Service Process 22248
+explorer 24264
+svchost 14888
+StartMenuExperienceHost 26144
+RuntimeBroker 19960
+SearchApp 24240
+RuntimeBroker 488
+ctfmon 2348
+RuntimeBroker 23372
+TextInputHost 12180
+NVIDIA Web Helper 3180
+conhost 12668
+PhoneExperienceHost 13308
+SecurityHealthSystray 19340
+RtkAudUService64 16296
+vgtray 13404
+ugeeTabletDriver 10300
+nvsphelper64 13728
+NVIDIA Share 20148
+Discord 15288
+NVIDIA Share 10256
+EpicGamesLauncher 7476
+Discord 5844
+NVIDIA Share 5536
+Discord 13328
+Discord 17140
+steam 10516
+CompPkgSrv 12848
+Razer Synapse 3 7252
+Discord 14940
+Discord 14372
+Overwolf 10524
+Creative Cloud 17264
+Razer Central 17444
+AdobeIPCBroker 12120
+Creative Cloud UI Helper 18448
+Creative Cloud UI Helper 25336
+Creative Cloud UI Helper 19816
+Adobe Desktop Service 2684
+Creative Cloud UI Helper 22460
+CefSharp.BrowserSubprocess 9672
+CefSharp.BrowserSubprocess 20868
+Creative Cloud Helper 24520
+CefSharp.BrowserSubprocess 21576
+CefSharp.BrowserSubprocess 22324
+CefSharp.BrowserSubprocess 1348
+OverwolfBrowser 13748
+CoreSync 27100
+OverwolfBrowser 23604
+OverwolfBrowser 23092
+OverwolfBrowser 26644
+EpicWebHelper 13340
+AdobeNotificationClient 17992
+OverwolfHelper 21252
+OverwolfHelper64 18396
+RuntimeBroker 9504
+EpicWebHelper 19820
+ShellExperienceHost 7060
+RuntimeBroker 19632
+steamwebhelper 26368
+steamwebhelper 20588
+steamservice 26548
+steamwebhelper 22312
+steamwebhelper 7388
+steamwebhelper 10540
+steamwebhelper 21784
+steamwebhelper 19208
+svchost 19764
+dllhost 18300
+UserOOBEBroker 22276
+GameInputSvc 1428
+GameInputSvc 24284
+OverwolfBrowser 21316
+RiotClientServices 26328
+RiotClientCrashHandler 14428
+CCXProcess 15348
+node 13484
+conhost 13732
+Adobe Crash Processor 18700
+LockApp 24364
+RuntimeBroker 21556
+rundll32 22592
+svchost 13496
+svchost 27068
+taskhostw 10972
+chrome 22560
+chrome 19968
+chrome 11328
+chrome 28520
+chrome 21228
+chrome 13220
+chrome 27268
+chrome 10352
+chrome 6552
+chrome 21020
+chrome 11480
+chrome 28612
+devenv 23624
+PerfWatson2 7260
+Microsoft.ServiceHub.Controller 11524
+ServiceHub.VSDetouredHost 27972
+ServiceHub.IdentityHost 10900
+ServiceHub.ThreadedWaitDialog 8452
+ServiceHub.RoslynCodeAnalysisService 1644
+ServiceHub.IntellicodeModelService 26652
+ServiceHub.IndexingService 868
+ServiceHub.Host.AnyCPU 16812
+ServiceHub.TestWindowStoreHost 3500
+chrome 26444
+WmiPrvSE 27492
+WmiPrvSE 15388
+svchost 25880
+svchost 7148
+backgroundTaskHost 10016
+RuntimeBroker 21396
+RuntimeBroker 4280
+MSBuild 6916
+conhost 12232
+VBCSCompiler 17620
+conhost 25460
+VsDebugConsole 17008
+conhost 3140
+ServiceHub.DataWarehouseHost 9996
+StandardCollector.Service 16736
+T2_Activitats 27600
