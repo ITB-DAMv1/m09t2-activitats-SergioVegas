@@ -42,7 +42,7 @@ namespace T2_Activitats
             Thread th2S = new Thread(() => { Thread.Sleep(300); Console.WriteLine("Hola! Soc el fil número 2"); });
             Thread th3S = new Thread(() => { Thread.Sleep(200); Console.WriteLine("Hola! Soc el fil número 3"); });
             Thread th4S = new Thread(() => { Thread.Sleep(100); Console.WriteLine("Hola! Soc el fil número 4"); });
-            Thread th5S = new Thread(() => {S Console.WriteLine("Hola! Soc el fil número 5"); });
+            Thread th5S = new Thread(() => {Console.WriteLine("Hola! Soc el fil número 5"); });
 
             th1S.Start();
             th2S.Start();
